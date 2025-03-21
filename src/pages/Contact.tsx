@@ -24,9 +24,6 @@ const Contact = () => {
     return () => observer.disconnect();
   }, []);
 
-  // URL for Google Maps embed
-  const mapUrl = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.9887265913855!2d-73.98258708555701!3d40.75822904235255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!2sTimes%20Square!5m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!2s!16zL20vMDdqcW4";
-
   return (
     <main className="pt-20 min-h-screen">
       {/* Hero Section */}
@@ -128,23 +125,6 @@ const Contact = () => {
                       Sunday: Closed
                     </p>
                   </div>
-                </div>
-              </div>
-              
-              {/* Map */}
-              <div className="mt-10 animate-on-scroll">
-                <h3 className="font-serif text-lg font-bold mb-4">Find Us</h3>
-                <div className="h-[300px] rounded-lg overflow-hidden shadow-md">
-                  <iframe 
-                    src={mapUrl}
-                    width="100%" 
-                    height="100%" 
-                    style={{ border: 0 }} 
-                    allowFullScreen 
-                    loading="lazy" 
-                    referrerPolicy="no-referrer-when-downgrade"
-                    title="Office Location Map"
-                  ></iframe>
                 </div>
               </div>
             </div>
