@@ -1,69 +1,56 @@
-# Welcome to your Lovable project
+Scriptoria
 
-## Project info
+About
 
-**URL**: https://lovable.dev/projects/495100ca-04c6-42a3-9af7-f367765d1eb8
+Scriptoria is a professional writing services website built with TypeScript.
+It offers expert book writing, meticulous editing and proofreading, creative cover design, and comprehensive publishing support to bring literary visions to life.
 
-## How can I edit this code?
 
-There are several ways of editing your application.
+This project is developed by Dexlanka Software Solutions — dexlanka.com.
 
-**Use Lovable**
+You can view the live website here: Visit Tranquil Haven
+(https://rashmitharkl.github.io/booksmith_interactive/)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/495100ca-04c6-42a3-9af7-f367765d1eb8) and start prompting.
 
-Changes made via Lovable will be committed automatically to this repo.
+Features
 
-**Use your preferred IDE**
+📖 Expert book writing services for all genres
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+📝 Professional editing and proofreading for polished manuscripts
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+🎨 Custom book cover design to capture your story
 
-Follow these steps:
+📚 End-to-end publishing guidance and support
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+📱 Fully responsive design for mobile, tablet, and desktop
+
+⚡ Fast, elegant, and built with TypeScript
+
+
+How to Run Locally
+
+Follow these steps to set up and run the project on your local machine:
+
+
+Step 1: Clone the repository using the project's Git URL.
+
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+Step 2: Navigate to the project directory.
+
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+Step 3: Install the necessary dependencies.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+npm install
+
+Step 4: Start the development server with auto-reloading and an instant preview.
+
 npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Project Information
 
-**Use GitHub Codespaces**
+Developed by: Dexlanka Software Solutions
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/495100ca-04c6-42a3-9af7-f367765d1eb8) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+Technologies used: TypeScript, [add others like React, TailwindCSS, etc. if used]
