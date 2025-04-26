@@ -37,17 +37,16 @@ const Navbar = () => {
   ];
 
   return (
-    <nav 
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled 
-          ? 'py-3 bg-white/90 backdrop-blur-md shadow-md' 
-          : 'py-5 bg-transparent'
-      }`}
+    <nav
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
+        ? 'py-3 bg-white/90 backdrop-blur-md shadow-md'
+        : 'py-5 bg-white/95 '
+        }`}
     >
       <div className="container-padding flex justify-between items-center">
         {/* Logo */}
-        <Link 
-          to="/" 
+        <Link
+          to="/"
           className="flex items-center"
         >
           <span className="font-serif text-2xl font-bold text-author-burgundy">
@@ -61,11 +60,10 @@ const Navbar = () => {
             <Link
               key={link.path}
               to={link.path}
-              className={`relative font-medium transition-colors ${
-                location.pathname === link.path
-                  ? 'text-author-burgundy after:scale-x-100'
-                  : 'text-author-navy hover:text-author-burgundy'
-              } after:content-[''] after:absolute after:w-full after:h-0.5 
+              className={`relative font-medium transition-colors ${location.pathname === link.path
+                ? 'text-author-burgundy after:scale-x-100'
+                : 'text-author-navy hover:text-author-burgundy'
+                } after:content-[''] after:absolute after:w-full after:h-0.5 
               after:bottom-0 after:left-0 after:bg-author-burgundy 
               ${location.pathname === link.path ? 'after:scale-x-100' : 'after:scale-x-0'} 
               after:origin-bottom-right after:transition-transform after:duration-300
@@ -99,29 +97,27 @@ const Navbar = () => {
 
       {/* Mobile Navigation */}
       <div
-        className={`md:hidden overflow-hidden transition-all duration-300 ease-bounce-soft ${
-          isOpen 
-            ? 'max-h-[400px] opacity-100 visible' 
-            : 'max-h-0 opacity-0 invisible'
-        }`}
+        className={`md:hidden overflow-hidden transition-all duration-300 ease-bounce-soft ${isOpen
+          ? 'max-h-[400px] opacity-100 visible'
+          : 'max-h-0 opacity-0 invisible'
+          }`}
       >
         <div className="container-padding py-4 bg-white/95 backdrop-blur-md shadow-md flex flex-col space-y-4">
           {navLinks.map((link) => (
             <Link
               key={link.path}
               to={link.path}
-              className={`py-2 px-4 rounded-md transition-colors ${
-                location.pathname === link.path
-                  ? 'bg-author-burgundy/10 text-author-burgundy font-medium'
-                  : 'text-author-navy hover:bg-author-burgundy/5'
-              }`}
+              className={`py-2 px-4 rounded-md transition-colors ${location.pathname === link.path
+                ? 'bg-author-burgundy/10 text-author-burgundy font-medium'
+                : 'text-author-navy hover:bg-author-burgundy/5'
+                }`}
               onClick={() => setIsOpen(false)}
             >
               {link.name}
             </Link>
           ))}
-          <Link 
-            to="/contact" 
+          <Link
+            to="/contact"
             className="btn-primary text-center"
             onClick={() => setIsOpen(false)}
           >
