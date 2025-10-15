@@ -101,13 +101,13 @@ const Contact = () => {
                   <div>
                     <h3 className="font-serif text-lg font-bold mb-1">Call Us</h3>
                     <p className="text-author-darkgray">
-                      <a href="tel:+12345678900" className="hover:text-author-burgundy transition-colors">
-                        +1 (234) 567-8900
+                      <a href="tel:+94 70 558 8789" className="hover:text-author-burgundy transition-colors">
+                        +94 70 558 8789
                       </a>
                       <br />
-                      <a href="tel:+12345678901" className="hover:text-author-burgundy transition-colors">
+                      {/* <a href="tel:+12345678901" className="hover:text-author-burgundy transition-colors">
                         +1 (234) 567-8901
-                      </a>
+                      </a> */}
                     </p>
                   </div>
                 </div>
