@@ -151,7 +151,7 @@ const About = () => {
       </section>
 
       {/* Our Team */}
-      <section className="py-20 bg-white">
+      {/* <section className="py-20 bg-white">
         <div className="container-padding">
           <div className="text-center mb-16 animate-on-scroll">
             <span className="inline-block py-1 px-3 rounded-full bg-author-burgundy/10 text-author-burgundy font-medium text-sm mb-4">
@@ -164,7 +164,7 @@ const About = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Team Member 1 */}
+            
             <div className="animate-on-scroll stagger-delay-1 group">
               <div className="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 group-hover:shadow-xl border border-gray-100 group-hover:border-author-burgundy/20">
                 <div className="relative overflow-hidden h-[300px]">
@@ -185,7 +185,7 @@ const About = () => {
               </div>
             </div>
             
-            {/* Team Member 2 */}
+            
             <div className="animate-on-scroll stagger-delay-2 group">
               <div className="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 group-hover:shadow-xl border border-gray-100 group-hover:border-author-burgundy/20">
                 <div className="relative overflow-hidden h-[300px]">
@@ -206,7 +206,7 @@ const About = () => {
               </div>
             </div>
             
-            {/* Team Member 3 */}
+            
             <div className="animate-on-scroll stagger-delay-3 group">
               <div className="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 group-hover:shadow-xl border border-gray-100 group-hover:border-author-burgundy/20">
                 <div className="relative overflow-hidden h-[300px]">
@@ -228,7 +228,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Call-to-Action */}
       <section 
